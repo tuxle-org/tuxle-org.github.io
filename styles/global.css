@@ -1,0 +1,25 @@
+/* Default to dark theme */
+:root {
+	--theme-bold: #0a0a0a;
+	--theme-bg: #161616;
+	--theme-section: #252525;
+	--theme-border: #404040;
+	--theme-hint: #b2b2b2;
+	--theme-fg: #ffffff;
+	--theme-hover: rgb(255 255 255 / 0.08);
+	--theme-accent: #34abde;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+	:root {
+		--theme-bold: #ffffff;
+		--theme-bg: #f0f0f0;
+		--theme-section: #e0e0e0;
+		--theme-border: #c0c0c0;
+		--theme-hint: #666666;
+		--theme-fg: #000000;
+		--theme-hover: rgb(0 0 0 / 0.08);
+		--theme-accent: #007acc;
+	}
+}
