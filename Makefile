@@ -1,2 +1,0 @@
-run:
-	pnpm dev
